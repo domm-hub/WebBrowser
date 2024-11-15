@@ -27,7 +27,7 @@ class PasswordDialog(QDialog):
         
         self.setLayout(layout)
 
-        self.password = "Adam@1612"  # Set the desired password here
+        self.password = "12345"  # Set the desired password here
 
     def check_password(self):
         if self.password_input.text() == self.password:
